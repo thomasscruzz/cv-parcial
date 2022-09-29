@@ -29,14 +29,29 @@
     border: 1px solid;
 }
 
+#aside{
+    display: flex;
+    justify-content: space-around;
+}
+
 .hipervinculos{
     display: flex;
-    justify-content: flex-start;
-    align-content: flex-start;
     background-color: cadetblue;
-    padding: 20px;
     text-align: center;
     font-size: xx-large;
     font-family: cursive;
     color: red;
+    width: 50%;
+    justify-content: center;
+}
+
+.aside-estudios{
+    display: flex;
+    background-color: cadetblue;
+    text-align: center;
+    font-size: xx-large;
+    font-family: cursive;
+    color: red;
+    width: 50%;
+    justify-content: center;
 }

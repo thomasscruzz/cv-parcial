@@ -28,3 +28,15 @@
     background-color: cadetblue;
     border: 1px solid;
 }
+
+.hipervinculos{
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    background-color: cadetblue;
+    padding: 20px;
+    text-align: center;
+    font-size: xx-large;
+    font-family: cursive;
+    color: red;
+}

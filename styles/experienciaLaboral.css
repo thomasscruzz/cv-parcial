@@ -1,0 +1,30 @@
+#header{
+    display: flex;
+    justify-content: center;
+    background-color: gainsboro;
+    text-align: center;
+}
+
+#article{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+    font-family: ui-monospace;
+    font-size: xx-large;
+    font-style: italic;
+    background-color: azure;
+}
+.pentos{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: yellow;
+    border: 2px solid;
+}
+.appstract{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: cadetblue;
+    border: 1px solid;
+}

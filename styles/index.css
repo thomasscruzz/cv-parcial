@@ -37,4 +37,24 @@ h3,h1{
     text-align: center;
     font-size: xx-large;
     font-family: cursive;
+    color: red;
+}
+.estudios{
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    background-color: blanchedalmond;
+    padding: 30px;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+.ul{
+    padding: inherit;
+}
+
+.texto{
+    font-size: larger;
+    font-family: serif;
 }

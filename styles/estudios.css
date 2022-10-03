@@ -1,3 +1,4 @@
+
 #header{
     display: flex;
     justify-content: center;
@@ -49,4 +50,21 @@ body{
 }
 .udemy{
     background-color: rgb(241, 198, 198);
+}
+
+@media(max-width:600px){
+   h2,h3{
+    font-size: medium;
+   }
+    .hipervinculos{
+        display: flex;
+        justify-content: flex-start;
+        align-content: flex-start;
+        background-color: blanchedalmond;
+        padding: 20px;
+        text-align: center;
+        font-size: medium;
+        font-family: cursive;
+        color: red;
+    }
 }

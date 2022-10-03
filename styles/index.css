@@ -1,4 +1,7 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 
 #header{
     display: flex;
@@ -40,7 +43,7 @@ h3,h1{
     background-color: blanchedalmond;
     padding: 20px;
     text-align: center;
-    font-size: xx-large;
+    font-size: larger;
     font-family: cursive;
     color: red;
 }

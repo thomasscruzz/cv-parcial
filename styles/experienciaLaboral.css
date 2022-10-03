@@ -55,3 +55,43 @@
     width: 50%;
     justify-content: center;
 }
+
+@media(max-width:600px){
+    #article{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 50px;
+        font-family: ui-monospace;
+        font-size: medium;
+        font-style: italic;
+        background-color: azure;
+    }
+    #aside{
+        display: flex;
+        justify-content: space-around;
+        font-size: medium;
+    }
+    .hipervinculos{
+        display: flex;
+        background-color: cadetblue;
+        text-align: center;
+        font-size: medium;
+        font-family: cursive;
+        color: red;
+        width: 50%;
+        justify-content: center;
+    }
+    
+    .aside-estudios{
+        display: flex;
+        background-color: cadetblue;
+        text-align: center;
+        font-size: medium;
+        font-family: cursive;
+        color: red;
+        width: 50%;
+        justify-content: center;
+    }
+    
+
+}

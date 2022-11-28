@@ -1,21 +1,13 @@
 
-#header{
-    display: flex;
-    justify-content: center;
-    background-color: gainsboro;
-    text-align: center;
-    border-radius: 20px;
-    padding: 1px;
-    margin: 10px;
-}
 
-#article,#aside{
+
+#article{
     display: flex;
     flex-direction: column;
+    width: 200%;
 }
-body{
-    display: inline-flex;
-}
+
+
 
 .hipervinculos{
     display: flex;
@@ -33,26 +25,26 @@ body{
     border: 1px solid;
 }
 .nivelInical{
-    background-color: aliceblue;
+    background-color: darksalmon;
 }
 .nivelPrimaria{
-    background-color: beige;
+    background-color: darksalmon;
 }
 .nivelSecundario{
     background-color: darksalmon;
 }
 .Universidad{
-    background-color: yellow;
+    background-color: darksalmon;
 }
 
 .cursoDH{
-    background-color: cornflowerblue;
+    background-color: darksalmon;
 }
 .udemy{
-    background-color: rgb(241, 198, 198);
+    background-color: darksalmon;
 }
 
-@media(max-width:600px){
+@media(max-width:700px){
    h2,h3{
     font-size: medium;
    }
@@ -66,5 +58,13 @@ body{
         font-size: medium;
         font-family: cursive;
         color: red;
+    }
+    article{
+        display: flex;
+        flex-direction: column;
+    }
+    aside{
+        display: flex;
+        flex-direction: column;
     }
 }
